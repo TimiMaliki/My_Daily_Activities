@@ -30,7 +30,7 @@ function age(){
       case "Sunday" :
         document.getElementById('check').innerText = "Reading From 10am-12pm" + "  Code from 12pm-6pm" + "  Sleep"
         break; 
-        default : document.getElementById('check').innerText = "Not A Valid Day"
+        default : document.getElementById('check').innerText = "Enter A Valid Day"
    }
 
 }
