@@ -15,7 +15,7 @@ function age(){
       case "Tuesday" :
         document.getElementById('check').innerText = "Go To Class Around 8am-12pm" + " " + " Code from 1pm-6pm "+ " Eat and Rest From 6:30pm-9pm" + " After That From 9:30pm-11pm , I Read My Books , Then Sleep"
         break;
-      case "Wensday" :
+      case "Wednesday" :
         document.getElementById('check').innerText =  "Go To Class Around 9am-11am" + " " + " Sports "
         break;
       case "Thursday" :

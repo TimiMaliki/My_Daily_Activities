@@ -53,6 +53,11 @@ button{
     margin: 3rem;
 }
 
+@media (max-width : 700px){
+    .flex{
+       display: inline-block;
+    }
+  }
 @media (min-width : 1500px){
     .box{
         width: 500px;
@@ -74,4 +79,6 @@ button{
 .check{
    font-size: 24px;
 }
+
 }
+
