@@ -64,6 +64,7 @@ button {
 @media (max-width : 327px) {
     .flex {
         display: inline-block;
+        margin-top: 23rem;
     }
 
     .box {
