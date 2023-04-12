@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,31 +8,37 @@ body{
     justify-content: center;
     align-items: center;
 }
-.flex{
+
+.flex {
     display: flex;
     gap: 2rem;
-    
+
 }
-.box{
+
+.box {
     width: 300px;
     height: 350px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: block;
 }
-.form{
+
+.form {
     display: block;
     margin-top: 5rem;
-    margin-left:2rem;
+    margin-left: 2rem;
 }
-h2{
+
+h2 {
     margin-right: 2rem;
 }
-input{
+
+input {
     width: 230px;
     height: 45px;
 }
-button{
+
+button {
     width: 230px;
     height: 40px;
     margin-top: 2rem;
@@ -43,43 +49,67 @@ button{
     font-size: 22px;
     border-radius: 40px;
     text-align: center;
-    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
-.check{
+
+.check {
     display: flex;
     justify-content: center;
     margin: 3rem;
 }
 
-@media (max-width : 700px){
-    .flex{
-       display: inline-block;
+@media (max-width : 327px) {
+    .flex {
+        display: inline-block;
     }
-  }
-@media (min-width : 1500px){
-    .box{
+
+    .box {
+        width: 200px;
+        height: 250px;
+    }
+    input {
+        width: 130px;
+        height: 45px;
+    }
+    button{
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media (max-width : 700px) {
+    .flex {
+        display: inline-block;
+    }
+}
+
+@media (min-width : 1500px) {
+    .box {
         width: 500px;
         height: 450px;
     }
+
     .form {
         margin-left: 5rem;
         font-size: 26px;
     }
+
     input {
-    width: 360px;
-    height: 55px;
-    font-size:23px;
-}
+        width: 360px;
+        height: 55px;
+        font-size: 23px;
+    }
+
     button {
-    width: 330px;
-    height: 60px;
-}
-.check{
-   font-size: 24px;
-}
+        width: 330px;
+        height: 60px;
+    }
+
+    .check {
+        font-size: 24px;
+    }
 
 }
-
